@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mi_refresh"
+        android:icon="@drawable/ic_refresh"
+        android:title="Refresh"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mi_new_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Change Game Difficulty"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mi_game_history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="View Previous Games"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mi_main_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Exit to Main Menu" />
+</menu>
